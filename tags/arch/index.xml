@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>arch on branchmispredictor</title>
+    <link>https://branchmispredictor.github.io/tags/arch/</link>
+    <description>Recent content in arch on branchmispredictor</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 05 Jan 2023 23:30:42 -0400</lastBuildDate><atom:link href="https://branchmispredictor.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Encrypted ZFS Root Key on USB using Arch</title>
+      <link>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</link>
+      <pubDate>Thu, 05 Jan 2023 23:30:42 -0400</pubDate>
+      
+      <guid>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</guid>
+      <description>This is an initcpio hook that loads your root pool zfs password from a usb stick, as an alternative to modifying the zfs initcpio hook as mentioned in https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS#Loading_password_from_USB-Stick.
+This hook can also be used in ZFSBootMenu, meaning the same code and same usb can unlock your root pool in ZFSBootMenu and Linux itself. This solution does not store your key in initramfs.
+Generate the Password + Write to the USB Generate your zfs password and put it on a usb drive using DD, see the first two steps: https://wiki.</description>
+    </item>
+    
+  </channel>
+</rss>
