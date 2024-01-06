@@ -19,7 +19,7 @@ A helpful comment alluded to a solution by storing the atuin sqlite db on tmpfs,
     <item>
       <title>Encrypted ZFS Root Key on USB using Arch</title>
       <link>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</link>
-      <pubDate>Thu, 05 Jan 2023 23:30:42 -0400</pubDate>
+      <pubDate>Fri, 05 Jan 2024 23:30:42 -0400</pubDate>
       <guid>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</guid>
       <description>This is an initcpio hook that loads your root pool zfs password from a usb stick, as an alternative to modifying the zfs initcpio hook as mentioned in https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS#Loading_password_from_USB-Stick.
 This hook can also be used in ZFSBootMenu, meaning the same code and same usb can unlock your root pool in ZFSBootMenu and Linux itself. This solution does not store your key in initramfs.
