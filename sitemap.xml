@@ -3,24 +3,33 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://branchmispredictor.github.io/tags/arch/</loc>
-    <lastmod>2023-01-05T23:30:42-04:00</lastmod>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
+  </url><url>
+    <loc>https://branchmispredictor.github.io/tags/atuin/</loc>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
   </url><url>
     <loc>https://branchmispredictor.github.io/</loc>
-    <lastmod>2023-01-05T23:30:42-04:00</lastmod>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
   </url><url>
-    <loc>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</loc>
-    <lastmod>2023-01-05T23:30:42-04:00</lastmod>
+    <loc>https://branchmispredictor.github.io/post/fixing-atuin-lag-on-zfs/</loc>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
   </url><url>
     <loc>https://branchmispredictor.github.io/tags/linux/</loc>
-    <lastmod>2023-01-05T23:30:42-04:00</lastmod>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
+  </url><url>
+    <loc>https://branchmispredictor.github.io/tags/litestream/</loc>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
   </url><url>
     <loc>https://branchmispredictor.github.io/post/</loc>
-    <lastmod>2023-01-05T23:30:42-04:00</lastmod>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
   </url><url>
     <loc>https://branchmispredictor.github.io/tags/</loc>
-    <lastmod>2023-01-05T23:30:42-04:00</lastmod>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
   </url><url>
     <loc>https://branchmispredictor.github.io/tags/zfs/</loc>
+    <lastmod>2024-01-05T23:15:28-05:00</lastmod>
+  </url><url>
+    <loc>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</loc>
     <lastmod>2023-01-05T23:30:42-04:00</lastmod>
   </url><url>
     <loc>https://branchmispredictor.github.io/post/fixing-lsi-sas-card-new-kernel/</loc>

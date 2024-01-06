@@ -6,8 +6,16 @@
     <description>Recent content in arch on branchmispredictor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 23:30:42 -0400</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jan 2024 23:15:28 -0500</lastBuildDate>
     <atom:link href="https://branchmispredictor.github.io/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing Atuin Lag on Zfs</title>
+      <link>https://branchmispredictor.github.io/post/fixing-atuin-lag-on-zfs/</link>
+      <pubDate>Fri, 05 Jan 2024 23:15:28 -0500</pubDate>
+      <guid>https://branchmispredictor.github.io/post/fixing-atuin-lag-on-zfs/</guid>
+      <description>I use atuin to keep a persistent and searchable bash history on my machine. Unfortunately, I was noticing periodic 5-10s of lag sometimes between entering a command, and seeing its response. A quick search turned up this Github issue, pointing to a ZFS bug involving sqlite (used by atuin) and ftruncate.
+A helpful comment alluded to a solution by storing the atuin sqlite db on tmpfs, and syncing that sqlite DB to ZFS using litestream.</description>
+    </item>
     <item>
       <title>Encrypted ZFS Root Key on USB using Arch</title>
       <link>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</link>
