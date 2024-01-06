@@ -1,36 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>branchmispredictor</title>
     <link>https://branchmispredictor.github.io/</link>
     <description>Recent content on branchmispredictor</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Jan 2023 23:30:42 -0400</lastBuildDate><atom:link href="https://branchmispredictor.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 05 Jan 2023 23:30:42 -0400</lastBuildDate>
+    <atom:link href="https://branchmispredictor.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Encrypted ZFS Root Key on USB using Arch</title>
       <link>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</link>
       <pubDate>Thu, 05 Jan 2023 23:30:42 -0400</pubDate>
-      
       <guid>https://branchmispredictor.github.io/post/encrypted-zfs-root-key-on-usb-using-arch/</guid>
       <description>This is an initcpio hook that loads your root pool zfs password from a usb stick, as an alternative to modifying the zfs initcpio hook as mentioned in https://wiki.archlinux.org/title/Install_Arch_Linux_on_ZFS#Loading_password_from_USB-Stick.
 This hook can also be used in ZFSBootMenu, meaning the same code and same usb can unlock your root pool in ZFSBootMenu and Linux itself. This solution does not store your key in initramfs.
 Generate the Password + Write to the USB Generate your zfs password and put it on a usb drive using DD, see the first two steps: https://wiki.</description>
     </item>
-    
     <item>
       <title>Fixing LSI SAS Card After Kernel Upgrade</title>
       <link>https://branchmispredictor.github.io/post/fixing-lsi-sas-card-new-kernel/</link>
       <pubDate>Thu, 04 Nov 2021 23:30:42 -0400</pubDate>
-      
       <guid>https://branchmispredictor.github.io/post/fixing-lsi-sas-card-new-kernel/</guid>
       <description>After updating my Arch Linux server to kernel version 5.14.14, all of the drives attached through a LSI SAS Card (LSISAS2116) disappeared.
 TL;DR: The fix was to add mpt3sas.max_queue_depth=10000 as a kernel param.
 Investigation The lines in question via dmesg:
 mpt2sas_cm0: sense pool(0x(____ptrval____)) - dma(0x10d000000): depth(29868), element_size(96), pool_size (2800 kB) mpt2sas_cm0: sense pool(0x(____ptrval____))- dma(0x10d000000): depth(29868),element_size(96), pool_size(0 kB) mpt2sas_cm0: reply pool(0x(____ptrval____)) - dma(0x10d400000): depth(30191), frame_size(128), pool_size(3773 kB) mpt2sas_cm0: config page(0x(____ptrval____)) - dma(0x10cfc9000): size(512) mpt2sas_cm0: Allocated physical memory: size(66932 kB) mpt2sas_cm0: Current Controller Queue Depth(29865),Max Controller Queue Depth(32455) mpt2sas_cm0: Scatter Gather Elements per IO(128) random: fast init done mpt2sas_cm0: LSISAS2116: FWVersion(20.</description>
     </item>
-    
-    
-    
   </channel>
 </rss>
